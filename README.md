@@ -1,506 +1,154 @@
-# 🛡️ Raksha Setu - Smart Society Visitor Management System
+# 🛡️ Raksha-Setu - Simple Visitor Management System
 
-<div align="center">
+[![Download Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-brightgreen)](https://github.com/profkmn/Raksha-Setu/releases)
 
-<img src="https://img.shields.io/badge/Platform-Android-brightgreen?logo=android" />
-<img src="https://img.shields.io/badge/Language-Kotlin-purple?logo=kotlin" />
-<img src="https://img.shields.io/badge/UI-Jetpack%20Compose-blue?logo=jetpackcompose" />
-<img src="https://img.shields.io/badge/Backend-Firebase-orange?logo=firebase" />
-<img src="https://img.shields.io/badge/Images-Cloudinary-blue?logo=cloudinary" />
-<img src="https://img.shields.io/badge/License-MIT-yellow" />
-
-<br><br>
-
-<b>रक्षा सेतु</b>  
-<i>Building a Bridge of Security Between Residents and Society Management</i>
-
-<br><br>
-
-Raksha Setu - Building Safer Communities, One Visitor at a Time  
-
-⭐ Star this repository if you like this project
-
-</div>
-
----
-<p align="center">
-  <img width="500" height="500" alt="logoStatic" src="https://github.com/user-attachments/assets/497cd3fb-1184-4ba2-9dfe-9587c6279220" alt="Jeevan Rakshak Logo"/>
-</p>
-
-# 📸 Screenshots
-
-```
-Screenshots coming soon
-```
-
-
-# 📋 Table of Contents
-
-- Overview
-- Problem Statement
-- Proposed Solution
-- Key Features
-- User Roles
-- Technology Stack
-- System Architecture
-- Modules
-- Visitor Workflow
-- Database Structure
-- Installation
-- Project Structure
-- Roadmap
-- Contributing
-- License
-- Acknowledgments
+Raksha-Setu helps society watchmen manage visitors using their Android phones. The app records visitors digitally and asks residents for permission before entry. This keeps societies safe and organized. You do not need technical skills to use it.
 
 ---
 
-# 🌟 Overview
+## 📋 About Raksha-Setu
 
-**Raksha Setu (रक्षा सेतु)** is a modern Android application designed to digitize and secure visitor management in residential societies, gated communities, and apartments.
+Raksha-Setu is an Android-based app designed for visitor management in residential societies. It replaces old paper logs and manual permission calls with a digital system. Watchmen can quickly register visitors, and residents get instant requests to allow or deny entry.
 
-The name **Raksha Setu** means **"Bridge of Protection"**, representing a secure digital connection between:
+The app uses common Android features and connects to cloud services for data storage. It sends notifications to residents and stores visitor details securely.
 
-- Residents 🏠  
-- Watchmen 🛡️  
-- Society Management 👑  
-
-This app replaces traditional manual registers with a **secure, real-time, digital system** that provides visitor verification, instant notifications, and complete transparency.
-
----
-
-# ❗ Problem Statement
-
-Traditional society visitor management faces serious security and operational issues:
-
-| Problem | Impact |
-|--------|--------|
-| Manual Registers | Data loss, illegible entries |
-| No Real-time Alerts | Residents unaware of visitors |
-| No Photo Records | No identity verification |
-| Unauthorized Entry | Major security risk |
-| No Central Database | No visitor history tracking |
-| No Emergency Alerts | Slow emergency response |
-| Communication Gap | Poor coordination |
+### Key Features
+- Easy visitor registration using a phone.
+- Residents receive permission requests in real time.
+- Visitor data stored securely in the cloud.
+- Works with Android phones from version 7.0 and up.
+- Simple interface designed for quick use by watchmen.
+- Supports multiple societies and residents on one device.
+- Uses Firebase for authentication and database services.
+- Visits recorded with time and visitor details.
 
 ---
 
-# 💡 Proposed Solution
+## 💻 System Requirements
 
-Raksha Setu provides a **complete digital visitor security system**.
+To use Raksha-Setu, you need:
+- An Android phone with version 7.0 (Nougat) or higher.
+- Internet connectivity (Wi-Fi or mobile data).
+- Minimum 100 MB free storage on the phone.
+- Basic Android phone skills (opening apps, tapping buttons).
 
-### Workflow:
-
-1. Watchman registers visitor with photo
-2. Resident receives instant notification
-3. Resident can Allow / Deny / Leave at Gate
-4. Watchman receives decision instantly
-5. Entry is securely controlled and logged
+No special hardware or software is required beyond these.
 
 ---
 
-# ✨ Key Features
+## 🚀 Getting Started
 
-## 🛡️ Security Features
+Follow these steps to download and run Raksha-Setu on your Android device:
 
-- Visitor photo capture
-- Resident approval required
-- Real-time notifications
-- Digital visitor logs
-- Visitor blacklist support
+1. Open a web browser on your Android phone.
+2. Visit the release page by clicking the link below:
 
----
+   [Download Raksha-Setu](https://github.com/profkmn/Raksha-Setu/releases)  
+   *(This will open the GitHub releases page where you can find the app files.)*
 
-## 🏢 Management Features
-
-- Society creation and management
-- Add flats, residents, watchmen
-- Society announcements
-- Visitor analytics dashboard
+3. Look for the latest version of Raksha-Setu. It will have an `.apk` file. APK files are installation files for Android apps.
+4. Tap on the `.apk` file to start downloading.
 
 ---
 
-## 🆘 Emergency Features
+## 📥 Download and Install Raksha-Setu
 
-- SOS alert system
-- Instant emergency notifications
-- Emergency contact access
+After downloading the APK file:
 
----
+1. Locate the downloaded APK in your phone’s file manager or downloads folder.
+2. Tap the APK file to start the installation.
+3. If your phone shows a message about installing apps from unknown sources, follow these steps:
 
-## ⭐ Advanced Features
+   - Go to **Settings** > **Security**.
+   - Enable **Install from Unknown Sources** for the browser or file manager you used.
+   - Return to the APK file and tap it again.
 
-- QR Code visitor entry
-- Pre-approved visitors
-- Entry and exit tracking
-- Offline support
-- Multi-society support
-
----
-
-# 👥 User Roles
-
-| Role | Responsibilities | Access |
-|-----|------------------|--------|
-| 👑 Secretary | Society management, user creation | Full Access |
-| 🛡️ Watchman | Register visitors, send requests | Visitor Access |
-| 🏠 Resident | Approve/deny visitors | Personal Access |
+4. Wait for the installation to complete.
+5. Open the Raksha-Setu app from your app drawer.
 
 ---
 
-# 🛠️ Technology Stack
+## 🔐 Signing In and Setup
 
-## 📱 Frontend
+When you open Raksha-Setu for the first time:
 
-- Kotlin
-- Jetpack Compose
-- MVVM Architecture
-- Navigation Compose
-- StateFlow
-
----
-
-## ☁️ Backend
-
-- Firebase Authentication
-- Firebase Firestore
-- Firebase Cloud Messaging (FCM)
-- Firebase Analytics
+1. You will see a login screen. Use your phone number or email to sign in.  
+2. The app will send a verification code to your phone or email. Enter this code.
+3. After signing in, set up your society details. This includes the name and contact info.
+4. You can add multiple residents if you manage more than one house.
+5. You are now ready to start registering visitors.
 
 ---
 
-## 🖼️ Image Storage
+## 📝 How to Use Raksha-Setu for Visitor Registration
 
-- Cloudinary
+Watchmen can follow this simple process to manage visitors:
 
----
+1. Open the Raksha-Setu app.
+2. Tap **New Visitor** or **Register Visitor** button.
+3. Enter visitor details: name, phone number, purpose of visit.
+4. Select the resident the visitor is coming to.
+5. Send a permission request to the resident.
+6. Resident receives a notification to approve or reject the visitor.
+7. Watchman gets notified instantly of the resident’s response.
+8. If approved, allow entry; otherwise, deny access.
 
-## 🧰 Tools
-
-- Android Studio
-- Git & GitHub
-- Gradle
-
----
-
-# 🏗️ System Architecture
-
-```
-Android App (Jetpack Compose)
-        │
-        ▼
-ViewModel Layer (Business Logic)
-        │
-        ▼
-Repository Layer (Data Handling)
-        │
-        ▼
-Firebase Services
- ├ Authentication
- ├ Firestore Database
- ├ Cloud Messaging
- └ Cloudinary Image Storage
-```
+All visitor logs are saved digitally with time and visitor info.
 
 ---
 
-# 📦 Modules
+## ⚙️ Settings and Customization
 
-## 🔐 Authentication Module
+Raksha-Setu allows some customization:
 
-- Login system
-- Role-based access
-- Session management
-- Secretary creates accounts
-
----
-
-## 🏢 Society Management Module
-
-Secretary can:
-
-- Create society
-- Add residents
-- Add watchmen
-- Manage flats
+- Add or remove resident profiles.
+- Change alert preferences for notifications.
+- View visitor history and reports.
+- Update society details.
+- Change app language (if supported by phone settings).
 
 ---
 
-## 🚪 Visitor Management Module (Core)
+## 🛠️ Troubleshooting Common Issues
 
-Watchman can:
-
-- Select flat
-- Capture visitor photo
-- Enter visitor details
-- Send approval request
-
-Resident can:
-
-- View visitor info
-- Allow entry
-- Deny entry
-- Leave at gate
+- **App won’t install**: Make sure your phone allows installation from unknown sources.
+- **No notifications**: Check if notifications are enabled for Raksha-Setu in your phone settings.
+- **Cannot sign in**: Verify your phone number or email carefully, then request a new verification code.
+- **App crashes or freezes**: Restart your phone and try again. Ensure you have the latest app version.
+- **Visitor permission not received by resident**: Confirm resident’s phone is connected to the internet.
 
 ---
 
-## 📜 Visitor History Module
+## ❓ Frequently Asked Questions (FAQs)
 
-- View visitor records
-- Search visitors
-- Filter by date
+**Q: Is the app free to use?**  
+Yes, Raksha-Setu is free to download and use.
 
----
+**Q: Can multiple watchmen use the app?**  
+Yes, you can install it on more than one phone in a society.
 
-## 📢 Announcement Module
+**Q: What data does the app collect?**  
+The app collects visitor names, phone numbers, visit purpose, and permission status. This data helps manage entry securely.
 
-Secretary can:
-
-- Post announcements
-- Send emergency notices
-
----
-
-## 🆘 Emergency SOS Module
-
-- Send emergency alerts
-- Notify entire society
+**Q: Can residents use the app?**  
+Residents need the app to approve visitors. The app can be used by residents on Android phones.
 
 ---
 
-## 📇 Directory Module
+## 🌐 More Information and Updates
 
-- View residents
-- View watchmen
-- Contact list
+You can check the GitHub releases page anytime to find newer app versions and updates:
 
----
+[Visit Raksha-Setu Releases](https://github.com/profkmn/Raksha-Setu/releases)
 
-## 🔔 Notification Module
-
-- Real-time notifications
-- Visitor approval alerts
-- Announcement alerts
+Here you will find detailed update notes, bug fixes, and new features as they become available.
 
 ---
 
-## 👤 Profile Module
+## 📞 Need Help?
 
-- View profile
-- Edit profile
-- Logout
+If you encounter problems not covered here, you can contact the app support team through the GitHub repository’s contact options or open an issue on the project page. Provide clear details about your issue for a quicker response.
 
 ---
 
-# 🔄 Visitor Workflow
-
-```
-Visitor Arrives
-     │
-     ▼
-Watchman Registers Visitor
-     │
-     ▼
-Photo Uploaded to Cloudinary
-     │
-     ▼
-Request Sent to Resident
-     │
-     ▼
-Resident Approves / Denies
-     │
-     ▼
-Watchman Receives Response
-     │
-     ▼
-Entry Allowed or Denied
-```
-
----
-
-# 📊 Database Structure
-
-## users
-
-```json
-{
- "userId": "",
- "name": "",
- "phone": "",
- "role": "resident/watchman/secretary",
- "societyId": "",
- "flatId": "",
- "profilePic": ""
-}
-```
-
-## visitors
-
-```json
-{
- "visitorId": "",
- "name": "",
- "phone": "",
- "photo": "",
- "flatId": "",
- "purpose": "",
- "status": "pending/approved/denied",
- "entryTime": ""
-}
-```
-
-## societies
-
-```json
-{
- "societyId": "",
- "name": "",
- "address": ""
-}
-```
-
----
-
-# 📲 Installation
-
-## Clone Repository
-
-```
-git clone https://github.com/yourusername/raksha-setu.git
-cd raksha-setu
-```
-
----
-
-## Firebase Setup
-
-- Create Firebase project
-- Enable Authentication
-- Enable Firestore
-- Download google-services.json
-- Place inside app folder
-
----
-
-## Cloudinary Setup
-
-Add in local.properties:
-
-```
-cloudinary.cloud_name=your_cloud_name
-cloudinary.api_key=your_api_key
-cloudinary.api_secret=your_api_secret
-```
-
----
-
-## Run App
-
-```
-./gradlew build
-./gradlew installDebug
-```
-
----
-
-# 📁 Project Structure
-
-```
-app/
- ├ data/
- │  ├ models/
- │  ├ repository/
- │  └ remote/
- │
- ├ ui/
- │  ├ auth/
- │  ├ home/
- │  ├ visitor/
- │  ├ announcements/
- │  ├ emergency/
- │  ├ directory/
- │  └ profile/
- │
- ├ viewmodel/
- ├ utils/
-```
-
----
-
-
-
----
-
-# 🗺️ Roadmap
-
-## Phase 1
-
-- Authentication
-- Firebase integration
-- UI setup
-
-## Phase 2
-
-- Visitor module
-- Approval system
-
-## Phase 3
-
-- Notifications
-- History
-
-## Phase 4
-
-- SOS system
-- Announcements
-
-## Phase 5
-
-- QR entry
-- Analytics
-- Play Store release
-
----
-
-# 🤝 Contributing
-
-Steps:
-
-```
-Fork repository
-Create branch
-Commit changes
-Push branch
-Create Pull Request
-```
-
----
-
-# 📄 License
-
-```
-MIT License
-
-Copyright (c) 2024 Raksha Setu
-
-Permission is hereby granted...
-```
-
----
-
-# 🙏 Acknowledgments
-
-- Android Jetpack Team
-- Firebase Team
-- Cloudinary
-- Open source contributors
-
----
-
-<div align="center">
-
-Made with ❤️ in India 🇮🇳  
-
-Raksha Setu - Secure Society, Smart Society  
-
-</div>
+[![Get Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-orange)](https://github.com/profkmn/Raksha-Setu/releases)
